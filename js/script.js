@@ -15,5 +15,10 @@ var cognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
 cognomi.push (cognomeUtente);
 
 // 4 stampa la lista ordinata alfabeticamente
-cognomi.sort();
+aggiungi = cognomi.sort();
+// stampo l'array
 console.log(cognomi);
+
+// 5 scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
+
+console.log(cognomi.indexOf(cognomeUtente) + 1 );
