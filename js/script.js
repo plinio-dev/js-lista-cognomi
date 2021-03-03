@@ -5,4 +5,15 @@
 // scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
 
 // 1 Chiedere all'utente il cognome
-var cognomeUtente = prompt ("Inserisci il cognome")
+var cognomeUtente = prompt ("Inserisci il cognome");
+
+// 2  creazione array
+
+var cognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
+
+// 3 inserire il dato utente nell'array
+cognomi.push (cognomeUtente);
+
+// 4 stampa la lista ordinata alfabeticamente
+cognomi.sort();
+console.log(cognomi);
